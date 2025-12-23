@@ -4,7 +4,7 @@ This project implements **linear regression inference under Fully Homomorphic En
 It enables a client to obtain predictions from a server-side regression model **without revealing the input data**, while keeping the model weights in plaintext.
 
 ---
-## Project Objective
+## Objective
 
 The objective of this project is to demonstrate **secure machine learning inference** using Fully Homomorphic Encryption.
 
@@ -15,7 +15,7 @@ Specifically:
 - The server never sees the user’s raw data This enables **privacy-preserving inference**, a key requirement in sensitive domains such as healthcare, finance, and security.
 ---
 
-## Project Overview
+## Overview
 
 This project performs the following steps:
 
