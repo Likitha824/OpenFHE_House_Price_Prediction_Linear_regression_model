@@ -56,23 +56,6 @@ During inference, the same computation is reproduced using encrypted arithmetic 
 
 ---
 
-## FHE Implementation
-
-The regression inference is implemented using the **OpenFHE** library.  
-The following steps are performed:
-
-1. Define the cryptographic context and parameters  
-2. Generate public, secret, and evaluation keys  
-3. Encode and encrypt the input feature vector  
-4. Load regression weights and encode them as plaintexts  
-5. Perform ciphertext–plaintext multiplications  
-6. Accumulate results using ciphertext additions  
-7. Decrypt the final ciphertext to obtain the prediction  
-
-All intermediate computations remain encrypted.
-
----
-
 ## Cryptographic Scheme
 
 - **Library:** OpenFHE  
@@ -112,7 +95,22 @@ Executes encrypted regression inference
 Decrypts and prints the prediction
 
 -----
+## FHE Implementation
 
+The regression inference is implemented using the **OpenFHE** library.  
+The following steps are performed:
+
+1. Define the cryptographic context and parameters  
+2. Generate public, secret, and evaluation keys  
+3. Encode and encrypt the input feature vector  
+4. Load regression weights and encode them as plaintexts  
+5. Perform ciphertext–plaintext multiplications  
+6. Accumulate results using ciphertext additions  
+7. Decrypt the final ciphertext to obtain the prediction  
+
+All intermediate computations remain encrypted.
+
+---
 ## Verification
 
 Correctness is verified by comparing:
