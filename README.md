@@ -98,7 +98,7 @@ mkdir build
 cd build
 cmake ..
 make
-
+```
 
 ### How to Run
 ./fhe_regression
