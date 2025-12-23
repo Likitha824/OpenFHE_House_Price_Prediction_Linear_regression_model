@@ -1,7 +1,5 @@
 # Privacy-Preserving Linear Regression using OpenFHE
 
-## Objective
-
 This project implements **linear regression inference under Fully Homomorphic Encryption (FHE)** using the **OpenFHE** library.  
 
 Specifically:
