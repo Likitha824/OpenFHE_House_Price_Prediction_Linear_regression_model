@@ -1,18 +1,17 @@
 # Privacy-Preserving Linear Regression using OpenFHE
 
-This project implements **linear regression inference under Fully Homomorphic Encryption (FHE)** using the **OpenFHE** library.  
-It enables a client to obtain predictions from a server-side regression model **without revealing the input data**, while keeping the model weights in plaintext.
-
----
 ## Objective
 
-The objective of this project is to demonstrate **secure machine learning inference** using Fully Homomorphic Encryption.
+This project implements **linear regression inference under Fully Homomorphic Encryption (FHE)** using the **OpenFHE** library.  
 
 Specifically:
 - The **regression model is trained in plaintext** 
 - **Model weights remain plaintext**
 - **Inputs and outputs are encrypted ciphertexts**
 - The server never sees the user’s raw data This enables **privacy-preserving inference**, a key requirement in sensitive domains such as healthcare, finance, and security.
+
+It enables a client to obtain predictions from a server-side regression model **without revealing the input data**, while keeping the model weights in plaintext.
+
 ---
 
 ## Overview
