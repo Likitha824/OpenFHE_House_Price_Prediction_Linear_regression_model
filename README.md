@@ -101,7 +101,9 @@ make
 ```
 
 ### How to Run
+```
 ./fhe_regression
+```
 
 The program performs the following:
 Generates cryptographic keys
