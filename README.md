@@ -27,7 +27,7 @@ This project performs the following steps:
 
 ---
 
-## Project Structure
+## Directory Structure
 
 ```text
 .
