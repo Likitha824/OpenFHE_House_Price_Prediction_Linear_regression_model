@@ -88,15 +88,17 @@ The CKKS scheme enables efficient evaluation of real-valued linear regression un
 ## Build Instructions
 
 ### Requirements
-C++17
-OpenFHE
-CMake
+- C++17
+- OpenFHE
+- CMake
 
 ### Build
+```bash
 mkdir build
 cd build
 cmake ..
 make
+
 
 ### How to Run
 ./fhe_regression
