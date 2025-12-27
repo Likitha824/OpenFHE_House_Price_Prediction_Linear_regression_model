@@ -1,4 +1,4 @@
-# Privacy-Preserving Linear Regression using OpenFHE
+# Fully Homomorphic Encryption (FHE) Regression Model for Estimating Housing Prices
 
 This project implements **linear regression inference under Fully Homomorphic Encryption (FHE)** using the **OpenFHE** library.  
 
